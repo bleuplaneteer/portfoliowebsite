@@ -208,7 +208,12 @@ h4 {
   transform: scale(1.2);
   margin-bottom: 5%;
 }
-
+@media only screen and (max-width: 500px) {
+  .about, .doing-now {
+    display: block;
+    margin-top: 20px;
+  }
+}
 /* footer styling */
 footer {
   background-color: #0f1521;
